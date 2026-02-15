@@ -47,33 +47,33 @@ This project is designed as a **final-year academic project** and also demonstra
 
 ## 📂 Project Structure
 
-SQL_PROJECT/
-│
-├── src/
-│ ├── app.py # Flask web application
-│ ├── main.py # CLI-based execution
-│ ├── loader.py # Data loading logic
-│ ├── cleaner.py # Data cleaning module
-│ ├── db_handler.py # Database operations
-│ ├── logger.py # Logging utilities
-│ └── init.py
-│
-├── templates/
-│ └── index.html # Web UI template
-│
-├── static/
-│ └── style.css # CSS styling
-│
-├── Data/ # Uploaded / raw datasets
-├── Database/
-│ └── data_store.db # SQLite database
-├── Logs/
-│ └── pipeline.log # Execution logs
-│
-├── requirements.txt
-└── README.md
-
-
+SQL_PROJECT/  
+│  
+├── src/  
+│ ├── app.py # Flask web application  
+│ ├── main.py # CLI-based execution  
+│ ├── loader.py # Data loading logic  
+│ ├── cleaner.py # Data cleaning module  
+│ ├── db_handler.py # Database operations  
+│ ├── logger.py # Logging utilities  
+│ └── init.py  
+│  
+├── templates/  
+│ └── index.html # Web UI template  
+│  
+├── static/  
+│ └── style.css # CSS styling  
+│  
+├── Data/ # Uploaded / raw datasets  
+├── Database/  
+│ └── data_store.db # SQLite database  
+├── Logs/  
+│ └── pipeline.log # Execution logs  
+│  
+├── requirements.txt  
+└── README.md  
+  
+  
 ---
 
 ## ▶️ How to Run the Project
@@ -82,3 +82,4 @@ SQL_PROJECT/
 ```bash
 git clone https://github.com/your-username/universal-data-ingestion-system.git
 cd universal-data-ingestion-system
+
